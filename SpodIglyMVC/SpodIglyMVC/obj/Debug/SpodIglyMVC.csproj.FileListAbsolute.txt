@@ -26,3 +26,4 @@ E:\Kursy\Kurs-ASP.NET-MVC-w-Praktyce\SpodIglyMVC\SpodIglyMVC\obj\Debug\SpodIglyM
 E:\Kursy\Kurs-ASP.NET-MVC-w-Praktyce\SpodIglyMVC\SpodIglyMVC\obj\Debug\SpodIglyMVC.csproj.CoreCompileInputs.cache
 E:\Kursy\Kurs-ASP.NET-MVC-w-Praktyce\SpodIglyMVC\SpodIglyMVC\obj\Debug\SpodIglyMVC.dll
 E:\Kursy\Kurs-ASP.NET-MVC-w-Praktyce\SpodIglyMVC\SpodIglyMVC\obj\Debug\SpodIglyMVC.pdb
+E:\Kursy\Kurs-ASP.NET-MVC-w-Praktyce\SpodIglyMVC\SpodIglyMVC\bin\Glimpse.Core.dll

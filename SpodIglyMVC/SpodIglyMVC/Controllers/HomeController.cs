@@ -13,5 +13,9 @@ namespace SpodIglyMVC.Controllers
         {
             return View();
         }
+        public ActionResult StaticContent(string viewname)
+        {
+            return View(viewname);
+        }
     }
 }
