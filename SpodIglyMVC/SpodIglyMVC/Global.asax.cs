@@ -1,5 +1,7 @@
-﻿using System;
+﻿using SpodIglyMVC.DAL;
+using System;
 using System.Collections.Generic;
+using System.Data.Entity;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
@@ -13,6 +15,8 @@ namespace SpodIglyMVC
         {
             AreaRegistration.RegisterAllAreas();
             RouteConfig.RegisterRoutes(RouteTable.Routes);
+
+            //Database.SetInitializer<StoreContext>(new StoreInitializer());
         }
     }
 }
