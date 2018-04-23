@@ -31,3 +31,5 @@ E:\Kursy\Kurs-ASP.NET-MVC-w-Praktyce\SpodIglyMVC\SpodIglyMVC\bin\EntityFramework
 E:\Kursy\Kurs-ASP.NET-MVC-w-Praktyce\SpodIglyMVC\SpodIglyMVC\bin\EntityFramework.SqlServer.dll
 E:\Kursy\Kurs-ASP.NET-MVC-w-Praktyce\SpodIglyMVC\SpodIglyMVC\bin\EntityFramework.xml
 E:\Kursy\Kurs-ASP.NET-MVC-w-Praktyce\SpodIglyMVC\SpodIglyMVC\bin\EntityFramework.SqlServer.xml
+E:\Kursy\Kurs-ASP.NET-MVC-w-Praktyce\SpodIglyMVC\SpodIglyMVC\obj\Debug\SpodIglyMVC.Migrations.InitialCreate.resources
+E:\Kursy\Kurs-ASP.NET-MVC-w-Praktyce\SpodIglyMVC\SpodIglyMVC\obj\Debug\SpodIglyMVC.csproj.GenerateResource.Cache
