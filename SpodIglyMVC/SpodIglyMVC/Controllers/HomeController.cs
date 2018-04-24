@@ -1,5 +1,6 @@
 ﻿using SpodIglyMVC.DAL;
 using SpodIglyMVC.Models;
+using SpodIglyMVC.ViewModels;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -15,11 +16,16 @@ namespace SpodIglyMVC.Controllers
         // GET: Home
         public ActionResult Index()
         {
-            //Genre newGenre = new Genre() { Name = "Rock", Description = "Opis gatunku", IconFilename = "1.png" };
-            //db.Genres.Add(newGenre);
-            //db.SaveChanges();
-            var genresList = db.Genres.ToList();
-            return View();
+            var genres = db.Genres;
+            var newArrivals = db.Albums.Where(a => !a.isHidden).OrderByDescending(a => a.DateAdded).Take(3).ToList();
+            var bestsellers = db.Albums.Where(a => !a.isHidden && a.IsBestseller).OrderBy(g => Guid.NewGuid()).Take(3).ToList();
+            var vm = new HomeViewModel() {
+                BestSellers = bestsellers,
+                Genres = genres,
+                NewArrivals = newArrivals
+            };
+
+            return View(vm);
         }
         public ActionResult StaticContent(string viewname)
         {
