@@ -29,6 +29,7 @@ namespace SpodIglyMVC.Controllers
         }
 
         [ChildActionOnly]
+        [OutputCache(Duration =80000)]
         public ActionResult GenresMenu()
         {
             var genres = db.Genres.ToList();
