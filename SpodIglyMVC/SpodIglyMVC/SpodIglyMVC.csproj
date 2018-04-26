@@ -424,6 +424,7 @@
     <Content Include="Views\Store\GenresMenu.cshtml" />
     <Content Include="Views\Store\List.cshtml" />
     <Content Include="Views\Store\ProductList.cshtml" />
+    <Content Include="Views\Store\Details.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
