@@ -89,3 +89,9 @@ E:\Kursy\Kurs-ASP.NET-MVC-w-Praktyce\SpodIglyMVC\SpodIglyMVC\bin\WebGrease.dll
 E:\Kursy\Kurs-ASP.NET-MVC-w-Praktyce\SpodIglyMVC\SpodIglyMVC\bin\Antlr3.Runtime.pdb
 E:\Kursy\Kurs-ASP.NET-MVC-w-Praktyce\SpodIglyMVC\SpodIglyMVC\bin\Newtonsoft.Json.xml
 E:\Kursy\Kurs-ASP.NET-MVC-w-Praktyce\SpodIglyMVC\SpodIglyMVC\bin\System.Web.Optimization.xml
+E:\Kursy\Kurs-ASP.NET-MVC-w-Praktyce\SpodIglyMVC\SpodIglyMVC\bin\MvcSiteMapProvider.dll
+E:\Kursy\Kurs-ASP.NET-MVC-w-Praktyce\SpodIglyMVC\SpodIglyMVC\bin\MvcSiteMapProvider.WebActivator.dll
+E:\Kursy\Kurs-ASP.NET-MVC-w-Praktyce\SpodIglyMVC\SpodIglyMVC\bin\WebActivatorEx.dll
+E:\Kursy\Kurs-ASP.NET-MVC-w-Praktyce\SpodIglyMVC\SpodIglyMVC\bin\Microsoft.Web.Administration.dll
+E:\Kursy\Kurs-ASP.NET-MVC-w-Praktyce\SpodIglyMVC\SpodIglyMVC\bin\MvcSiteMapProvider.xml
+E:\Kursy\Kurs-ASP.NET-MVC-w-Praktyce\SpodIglyMVC\SpodIglyMVC\bin\MvcSiteMapProvider.WebActivator.xml
