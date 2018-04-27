@@ -1,4 +1,5 @@
-﻿using SpodIglyMVC.DAL;
+﻿using SpodIglyMVC.App_Start;
+using SpodIglyMVC.DAL;
 using System;
 using System.Collections.Generic;
 using System.Data.Entity;
@@ -16,7 +17,7 @@ namespace SpodIglyMVC
         {
             AreaRegistration.RegisterAllAreas();
             RouteConfig.RegisterRoutes(RouteTable.Routes);
-
+            BundleConfig.RegisterBundles(BundleTable.Bundles);
             //Database.SetInitializer<StoreContext>(new StoreInitializer());
             BundleMobileConfig.RegisterBundles(BundleTable.Bundles);
 
