@@ -114,7 +114,13 @@ namespace SpodIglyMVC.Infrastructure
 
             return newOrder;
         }
+        public int GetCartItemsCount()
+        {
+            var cart = this.GetCart();
+            int count = cart.Sum(c => c.Quantity);
 
+            return count;
+        }
         public void EmptyCart()
         {
             session.Set<List<CartItem>>(CartSessionKey, null);
